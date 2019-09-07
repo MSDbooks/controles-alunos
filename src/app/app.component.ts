@@ -50,7 +50,6 @@ export class AppComponent   {
      //TODO
     // if (event.t.le < 5)
     // return
-
     //TODO: ajustar para pegar a string do evento
     this.alunosFiltro = this.alunosTotal.filter( a =>  a.Nome.indexOf(this.textFind));
 
